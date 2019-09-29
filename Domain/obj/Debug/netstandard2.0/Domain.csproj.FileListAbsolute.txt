@@ -7,3 +7,12 @@ D:\acer\data\Microsoft Technologies\CoreReact\Domain\obj\Debug\netstandard2.0\Do
 D:\acer\data\Microsoft Technologies\CoreReact\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
 D:\acer\data\Microsoft Technologies\CoreReact\Domain\obj\Debug\netstandard2.0\Domain.dll
 D:\acer\data\Microsoft Technologies\CoreReact\Domain\obj\Debug\netstandard2.0\Domain.pdb
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\Domain\bin\Debug\netstandard2.0\Domain.dll
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\Domain\bin\Debug\netstandard2.0\Domain.pdb
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\Domain\obj\Debug\netstandard2.0\Domain.dll
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\Domain\obj\Debug\netstandard2.0\Domain.pdb

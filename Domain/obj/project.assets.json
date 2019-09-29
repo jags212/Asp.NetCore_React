@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\acer\\data\\Microsoft Technologies\\CoreReact\\Domain\\Domain.csproj",
+      "projectUniqueName": "D:\\acer\\data\\Microsoft Technologies\\Core_React_VSCode\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\acer\\data\\Microsoft Technologies\\CoreReact\\Domain\\Domain.csproj",
+      "projectPath": "D:\\acer\\data\\Microsoft Technologies\\Core_React_VSCode\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-      "outputPath": "D:\\acer\\data\\Microsoft Technologies\\CoreReact\\Domain\\obj\\",
+      "outputPath": "D:\\acer\\data\\Microsoft Technologies\\Core_React_VSCode\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
