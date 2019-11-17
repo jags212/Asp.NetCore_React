@@ -20,7 +20,6 @@ D:\acer\data\Microsoft Technologies\Core_React_VSCode\Application\bin\Debug\nets
 D:\acer\data\Microsoft Technologies\Core_React_VSCode\Application\bin\Debug\netstandard2.0\Domain.pdb
 D:\acer\data\Microsoft Technologies\Core_React_VSCode\Application\bin\Debug\netstandard2.0\Persistence.pdb
 D:\acer\data\Microsoft Technologies\Core_React_VSCode\Application\obj\Debug\netstandard2.0\Application.csprojAssemblyReference.cache
-D:\acer\data\Microsoft Technologies\Core_React_VSCode\Application\obj\Debug\netstandard2.0\Application.csproj.CoreCompileInputs.cache
 D:\acer\data\Microsoft Technologies\Core_React_VSCode\Application\obj\Debug\netstandard2.0\Application.AssemblyInfoInputs.cache
 D:\acer\data\Microsoft Technologies\Core_React_VSCode\Application\obj\Debug\netstandard2.0\Application.AssemblyInfo.cs
 D:\acer\data\Microsoft Technologies\Core_React_VSCode\Application\obj\Debug\netstandard2.0\Application.csproj.CopyComplete

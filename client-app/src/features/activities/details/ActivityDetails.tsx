@@ -14,7 +14,8 @@ interface DetailsParams {
 }
 
 const ActivityDetails: React.FC<RouteComponentProps<DetailsParams>> = ({
-  match
+  match,
+  history
 }) => {
   const activityStore = useContext(ActivityStore);
   const {
@@ -25,10 +26,14 @@ const ActivityDetails: React.FC<RouteComponentProps<DetailsParams>> = ({
 
   useEffect(() => {
     loadActivity(match.params.id);
-  }, [loadActivity,match.params.id]);
+  }, [loadActivity,match.params.id, history]);
 
-  if (loadingInitial || !activity)
+  if (loadingInitial)
     return <LoadingComponent content="Loading activity..." />;
+
+    if (!activity) {
+      return <h2>Activity Not Found</h2>
+    }
 
   return (
     <Grid>

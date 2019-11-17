@@ -31,7 +31,6 @@ D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\bin\Debug\netcoreapp2.
 D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\bin\Debug\netcoreapp2.2\Domain.pdb
 D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\bin\Debug\netcoreapp2.2\Persistence.pdb
 D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\obj\Debug\netcoreapp2.2\API.csprojAssemblyReference.cache
-D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\obj\Debug\netcoreapp2.2\API.csproj.CoreCompileInputs.cache
 D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\obj\Debug\netcoreapp2.2\API.RazorAssemblyInfo.cache
 D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\obj\Debug\netcoreapp2.2\API.RazorAssemblyInfo.cs
 D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\obj\Debug\netcoreapp2.2\API.AssemblyInfoInputs.cache
@@ -40,3 +39,6 @@ D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\obj\Debug\netcoreapp2.
 D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\obj\Debug\netcoreapp2.2\API.csproj.CopyComplete
 D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\obj\Debug\netcoreapp2.2\API.dll
 D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\obj\Debug\netcoreapp2.2\API.pdb
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\bin\Debug\netcoreapp2.2\appsettings.json
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
