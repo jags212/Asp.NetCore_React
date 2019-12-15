@@ -42,3 +42,5 @@ D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\obj\Debug\netcoreapp2.
 D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\bin\Debug\netcoreapp2.2\appsettings.Development.json
 D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\bin\Debug\netcoreapp2.2\appsettings.json
 D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\bin\Debug\netcoreapp2.2\Infrastructure.dll
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\bin\Debug\netcoreapp2.2\Infrastructure.pdb
