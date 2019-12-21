@@ -1,0 +1,15 @@
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\Infrastructure\bin\Debug\netcoreapp3.0\Infrastructure.deps.json
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\Infrastructure\bin\Debug\netcoreapp3.0\Infrastructure.dll
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\Infrastructure\bin\Debug\netcoreapp3.0\Infrastructure.pdb
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\Infrastructure\bin\Debug\netcoreapp3.0\Application.dll
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\Infrastructure\bin\Debug\netcoreapp3.0\Domain.dll
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\Infrastructure\bin\Debug\netcoreapp3.0\Persistence.dll
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\Infrastructure\bin\Debug\netcoreapp3.0\Application.pdb
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\Infrastructure\bin\Debug\netcoreapp3.0\Domain.pdb
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\Infrastructure\bin\Debug\netcoreapp3.0\Persistence.pdb
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\Infrastructure\obj\Debug\netcoreapp3.0\Infrastructure.csprojAssemblyReference.cache
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\Infrastructure\obj\Debug\netcoreapp3.0\Infrastructure.AssemblyInfoInputs.cache
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\Infrastructure\obj\Debug\netcoreapp3.0\Infrastructure.AssemblyInfo.cs
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\Infrastructure\obj\Debug\netcoreapp3.0\Infrastructure.csproj.CopyComplete
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\Infrastructure\obj\Debug\netcoreapp3.0\Infrastructure.dll
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\Infrastructure\obj\Debug\netcoreapp3.0\Infrastructure.pdb

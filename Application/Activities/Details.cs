@@ -1,6 +1,6 @@
+using System.Security.Cryptography.X509Certificates;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
@@ -9,35 +9,44 @@ using Domain;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
+using AutoMapper;
+
 
 namespace Application.Activities
 {
     public class Details
     {
-        public class Query : IRequest<Domain.Activity>
+        public class Query : IRequest<ActivityDTO>
         {
-            public Guid Id {get;set;}
+            public Guid Id { get; set; }
         }
 
-        public class Handler : IRequestHandler<Query, Domain.Activity>
+        public class Handler : IRequestHandler<Query, ActivityDTO>
         {
             private readonly DataContext _context;
+            private readonly IMapper _mapper;
 
-            public Handler(DataContext context)
+            public Handler(DataContext context, IMapper mapper)
             {
+                _mapper = mapper;
                 _context = context;
             }
 
-            public async Task<Domain.Activity> Handle(Query request, CancellationToken cancellationToken)
+            public async Task<ActivityDTO> Handle(Query request, CancellationToken cancellationToken)
             {
-                
-                var activity = await _context.Activities.FindAsync(request.Id);
-                 if (activity == null) {
-                    throw new RestException(HttpStatusCode.NotFound, new 
-                    {activity = "Not found"});
+
+                var activity = await _context.Activities
+                .FindAsync(request.Id);
+
+                if (activity == null)
+                {
+                    throw new RestException(HttpStatusCode.NotFound, new
+                    { activity = "Not found" });
                 }
 
-                return activity;
+                var activityToReturn= _mapper.Map<Activity, ActivityDTO>(activity);
+
+                return activityToReturn;
             }
         }
     }
