@@ -29,7 +29,7 @@ export default class UserStore {
     } catch (error) {
       console.log(error);
       throw error;
-    }
+    }   
   };
 
   @action register = async (values: IUserFormValues) => {
@@ -60,4 +60,5 @@ export default class UserStore {
     this.user = null;
     history.push('/')
   }
+  
 }

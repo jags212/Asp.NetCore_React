@@ -50,13 +50,13 @@ namespace API
             });
             services.AddMediatR(typeof(List.Handler).Assembly);
             services.AddAutoMapper(typeof(List.Handler));
-            services.AddMvc(opt => 
+            services.AddControllers(opt => 
             {
                 var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
                 opt.Filters.Add(new AuthorizeFilter(policy));
             })
-            .AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<Create>())
-            .SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+            .AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<Create>());
+           
 
             var builder = services.AddIdentityCore<AppUser>();
             var identityBuilder = new IdentityBuilder(builder.UserType,builder.Services);
@@ -85,6 +85,7 @@ namespace API
                      ValidateIssuer = false
                  };
              });
+             
             services.AddScoped<IJwtGenerator,JwtGenerator>();
             services.AddScoped<IUserAccessor,UserAccessor>();
            
@@ -93,34 +94,31 @@ namespace API
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+             app.UseMiddleware<ErrorHandlingMiddleware>();
            
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseHsts();
+            }
 
-            app.UseMiddleware<ErrorHandlingMiddleware>();
-            
-            
-            app.UseCors("CorsPolicy");
-            app.UseAuthentication();
-            app.UseAuthorization();
-            
            
-
-            //app.UseHttpsRedirection();
-
-            app.UseRouting();
-
             
-
+            //app.UseHttpsRedirection();
+            app.UseRouting();
+            app.UseAuthentication(); 
+            app.UseCors("CorsPolicy");             
+            app.UseAuthorization();    
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
 
             
-            //app.UseHttpsRedirection();
+            
            
         }
     }

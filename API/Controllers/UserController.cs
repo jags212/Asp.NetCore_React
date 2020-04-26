@@ -23,7 +23,9 @@ namespace API.Controllers
             return await Mediator.Send(command);
         }
 
+    
         [HttpGet]
+         [AllowAnonymous]
         public async Task<ActionResult<User>> CurrentUser()
         {
             return await Mediator.Send(new CurrentUser.Query());
