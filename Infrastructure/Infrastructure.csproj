@@ -4,8 +4,9 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.5.0"/>
+    <PackageReference Include="CloudinaryDotNet" Version="1.10.0"/>
   </ItemGroup>
   <PropertyGroup>
-     <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 </Project>

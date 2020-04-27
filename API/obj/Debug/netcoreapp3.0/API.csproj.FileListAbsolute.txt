@@ -72,3 +72,4 @@ D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\obj\Debug\netcoreapp3.
 D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\obj\Debug\netcoreapp3.0\API.dll
 D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\obj\Debug\netcoreapp3.0\API.pdb
 D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\acer\data\Microsoft Technologies\Core_React_VSCode\API\bin\Debug\netcoreapp3.0\CloudinaryDotNet.dll
